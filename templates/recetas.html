@@ -4,7 +4,7 @@
 <header>
     <div>
         <h1>Dulche</h1>
-        <img src="https://i.pinimg.com/736x/03/09/62/0309626d826d28c802a0d0aab5a1b7b0.jpg" alt="Dulche" width="300">
+        <img src="{{ url_for('static', filename='dulche.jpg') }}" alt="Dulche" width="300">
         <p>Apartado de recetas sencillas</p>
     </div>
 </header>
@@ -27,7 +27,7 @@
 
             <li>5.Una vez listas las galletas, retira del horno y deja enfriar completamente. Mientras se enfrían, derrite el Chocolate Blanco a baño maría. Una vez derretido completamente decora las galletas con líneas de chocolate blanco en la superficie. Disfruta.</li>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYweZYx-g7qpC3-rJDOEV1ALh6eNnCyzL4g&s" alt="Galletas de chocolate" width="300">
+            <img src="{{ url_for('static', filename='galletas_chocolate.jpg') }}" alt="Galletas de chocolate" width="300">
         </ul>
     </div>
 
@@ -46,7 +46,7 @@
                 líquido pero les recomiendo seguir revolviendo. Lo peor es si se pasa de líquido. Cuando veamos bien si le falta líquido o no,
                 agregar las última cditas., si hace falta. Debe quedar blanco y bien espeso.</li>
             </ul>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKv-Pjmk0CpZQLKQYQ_2-o0_Hu4CsjQ8YKQ&s" alt="Pastel de zanahoria" width="300">
+            <img src="{{ url_for('static', filename='pastel_zanahoria.jpg') }}" alt="Pastel de zanahoria" width="300">
     </div>
 
 
@@ -60,7 +60,7 @@
             <li>5. Vierte aproximadamente 1/4 de taza de masa por cada panqueque en la sartén caliente. Cocina hasta que aparezcan burbujas en la superficie y los bordes se vean cocidos, luego voltea y cocina por el otro lado hasta que esté dorado.</li>
             <li>6. Sirve los panqueques calientes con tus toppings favoritos como miel, frutas frescas o jarabe de arce.</li>
         </ul>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBI2wqb1tLKL7O1ZWcoUNsZKPYF3AvtGL63Q&s alt="Panqueques" width="300">
+        <img src="{{ url_for('static', filename='panqueques.jpg') }}" alt="Panqueques" width="300">
     </div>
 </main>
 {% endblock %}
